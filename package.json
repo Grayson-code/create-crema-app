@@ -1,0 +1,40 @@
+{
+  "name": "create-crema-app",
+  "version": "1.0.0",
+  "description": "Creates a template file for The Sapphire Framework bot",
+  "main": "src/main.ts",
+  "bin": "bin/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm i && ts-node src/main.ts",
+    "build": "npm ci && tsc",
+    "start": "npm run build && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grayson-code/create-crema-app.git"
+  },
+  "keywords": [
+    "DiscordBot",
+    "Bot",
+    "discord.js",
+    "SapphireClient",
+    "SapphireFramwork",
+    "Sapphire"
+  ],
+  "author": "Northern Star",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Grayson-code/create-crema-app/issues"
+  },
+  "homepage": "https://github.com/Grayson-code/create-crema-app#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "ts-node": "^10.7.0"
+  },
+  "dependencies": {
+    "@sapphire/framework": "^2.4.1",
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1"
+  }
+}
